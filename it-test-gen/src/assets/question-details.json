@@ -1,0 +1,7 @@
+[
+    {
+        "question": "Which command is used to check network connectivity?",
+        "opitions": ["ipconfig", "ping", "tracert", "nslookup"],
+        "anwser": 1
+    }
+]
