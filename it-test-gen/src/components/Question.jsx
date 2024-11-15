@@ -1,34 +1,31 @@
 import { useState } from "react"
 
-const Question = () => {
+const Question = ({questionDetails, updateUserInput, idx}) => {
     const [selectedOption, setSelectedOption] = useState()
 
     const handleOption = e => {
-        setSelectedOption(Number(e.target.value))
-        console.log(e.target.value)
+        const value = Number(e.target.value)
+        setSelectedOption(value)
+        updateUserInput(idx, value)
     }
 
-    const questionDetails = {
-        question: "Which command is used to check network connectivity?",
-        opitions: ["ipconfig", "ping", "tracert", "nslookup"],
-        anwser: 1
-    }
 
     return (
-        <>
-            <h1>{questionDetails.question}</h1>
-            {questionDetails.opitions.map((item, idx) =>
-                <label>
+        <div id="question-item">
+            <h1 id="question-title">{idx + 1}. {questionDetails.question}</h1>
+            {questionDetails.options.map((item, optionIdx) =>
+                <label key={optionIdx}>
                     <input 
                         type="radio"
-                        value={idx}
-                        checked={selectedOption === idx}
+                        value={optionIdx}
+                        checked={selectedOption === optionIdx}
                         onChange={handleOption}
                     />
                     {item}
                 </label>
             )}
-        </>
+        </div>
+
     )
 }
 

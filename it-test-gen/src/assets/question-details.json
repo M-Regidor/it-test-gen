@@ -1,7 +1,102 @@
 [
     {
         "question": "Which command is used to check network connectivity?",
-        "opitions": ["ipconfig", "ping", "tracert", "nslookup"],
-        "anwser": 1
+        "options": ["ipconfig", "ping", "tracert", "nslookup"],
+        "answer": 1
+    },
+    {
+        "question": "A user reports their computer is running very slowly. What should you check first?",
+        "options": ["Internet connection speed", "CPU and memory usage in Task Manager", "Screen resolution settings", "Printer queue"],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is NOT an example of multi-factor authentication (MFA)?",
+        "options": ["A password and a security question", "A password and a code sent to a mobile phone", "A fingerprint scan and a password", "A security badge and a PIN"],
+        "answer": 0
+    },
+    {
+        "question": "A user is unable to log into their computer. What should you do first?",
+        "options": ["Reset their password immediately", "Check if their keyboard is functioning properly", "Reinstall the operating system", "Check if their account is locked or disabled"],
+        "answer": 1
+    },
+    {
+        "question": "What is the default gateway in networking?",
+        "options": ["The path data takes to the internet", "The router’s IP address", "The subnet mask", "The DNS server"],
+        "answer": 1
+    },
+    {
+        "question": "What does DNS stand for?",
+        "options": ["Domain Name System", "Digital Network Service", "Data Node Synchronization", "Dynamic Network Settings"],
+        "answer": 0
+    },
+    {
+        "question": "How do you check the IP address of a computer in Windows?",
+        "options": ["Open Command Prompt and type `ipconfig`", "Use the Control Panel", "Run a speed test", "Check the browser settings"],
+        "answer": 0
+    },
+    {
+        "question": "A frustrated user calls and complains their computer isn’t working. How would you respond?",
+        "options": ["Can you calm down so I can help you?", "I’ll transfer you to someone who can help.", "I understand this is frustrating. Let’s work together to fix it.", "I can’t help if you’re yelling. Please call back later."],
+        "answer": 2
+    },
+    {
+        "question": "A user reports that their laptop is not charging. What should you check first?",
+        "options": ["The power outlet", "The laptop battery", "The charger", "The charging port"],
+        "answer": 2
+    },
+    {
+        "question": "What is the shortcut to open Task Manager in Windows?",
+        "options": ["Ctrl + Alt + Delete", "Ctrl + Shift + Esc", "Ctrl + Esc", "Alt + Esc"],
+        "answer": 1
+    },
+    {
+        "question": "What does VPN stand for?",
+        "options": ["Virtual Private Network", "Verified Protocol Node", "Virtual Protocol Network", "Verified Private Node"],
+        "answer": 0
+    },
+    {
+        "question": "What is the purpose of a firewall?",
+        "options": ["Block viruses", "Encrypt sensitive data", "Control incoming and outgoing traffic", "Monitor hardware status"],
+        "answer": 2
+    },
+    {
+        "question": "Which layer of the OSI model is responsible for end-to-end communication?",
+        "options": ["Transport", "Network", "Data Link", "Session"],
+        "answer": 0
+    },
+    {
+        "question": "A user complains about a frozen application. What should you do first?",
+        "options": ["Restart the computer", "Force close the application", "Reinstall the application", "Check for software updates"],
+        "answer": 1
+    },
+    {
+        "question": "What is the default port for HTTP?",
+        "options": ["80", "443", "8080", "21"],
+        "answer": 0
+    },
+    {
+        "question": "A user accidentally deleted an important file. What should you do first?",
+        "options": ["Restore from a backup", "Search in the Recycle Bin", "Recreate the file", "Install recovery software"],
+        "answer": 1
+    },
+    {
+        "question": "Which file system is best for large files on Windows?",
+        "options": ["NTFS", "FAT32", "exFAT", "EXT4"],
+        "answer": 0
+    },
+    {
+        "question": "A user cannot access a shared folder on the network. What should you check first?",
+        "options": ["Their network connection", "The folder’s permissions", "The server’s uptime", "The user’s credentials"],
+        "answer": 1
+    },
+    {
+        "question": "What does SLA stand for?",
+        "options": ["Service Level Agreement", "Support Level Authorization", "System Log Access", "Software License Agreement"],
+        "answer": 0
+    },
+    {
+        "question": "What is the first step in troubleshooting a network connectivity issue?",
+        "options": ["Restart the computer", "Check the physical connection (cables, Wi-Fi)", "Call the internet service provider", "Run a virus scan"],
+        "answer": 1
     }
 ]
