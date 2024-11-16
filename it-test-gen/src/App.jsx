@@ -7,6 +7,7 @@ import questions from "./assets/question-details.json"
 
 function App() {
   const [userInputs, setUserInputs] = useState(Array(questions.length).fill(null))
+  const [testCompelete, setTestCompelete] = useState(false)
   
   const updateUserInput = (idx, value) => {
     const updatedItems = [...userInputs]
@@ -21,10 +22,11 @@ function App() {
         score++
       }
     }
+    setTestCompelete(true)
     console.log("score", score, "of", questions.length)
   }
 
-  console.log(userInputs)
+  
   return (
     <>
       <div>
@@ -37,6 +39,8 @@ function App() {
             questionDetails={item}
             updateUserInput={updateUserInput}
             idx={idx}
+            testCompelete={testCompelete}
+            correct={item.answer === userInputs[idx] ? true : false}
           />
         )}
       </div>
