@@ -1,9 +1,7 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Question from './components/Question'
-import questions from "./assets/question-details.json"
+import questions from "./assets/questions-2.json"
 
 function App() {
   const [userInputs, setUserInputs] = useState(Array(questions.length).fill(null))

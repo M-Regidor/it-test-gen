@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What does BIOS stand for?",
+        "options": ["Basic Input Output System", "Binary Integrated Operating System", "Basic Internal Operating System", "Base Input Output Software"],
+        "answer": 0
+    },
+    {
+        "question": "A user reports their monitor is not displaying anything. What should you check first?",
+        "options": ["Ensure the monitor is turned on", "Replace the monitor", "Restart the computer", "Reinstall graphics drivers"],
+        "answer": 0
+    },
+    {
+        "question": "What is the primary purpose of a UPS (Uninterruptible Power Supply)?",
+        "options": ["Prevent data theft", "Provide backup power during an outage", "Improve computer speed", "Secure network connections"],
+        "answer": 1
+    },
+    {
+        "question": "What is the function of a DHCP server?",
+        "options": ["Assign IP addresses automatically", "Store DNS records", "Manage user permissions", "Encrypt network traffic"],
+        "answer": 0
+    },
+    {
+        "question": "Which tool in Windows helps diagnose memory issues?",
+        "options": ["Event Viewer", "Windows Memory Diagnostic", "Resource Monitor", "Task Manager"],
+        "answer": 1
+    },
+    {
+        "question": "What is the default file extension for PowerShell scripts?",
+        "options": [".ps1", ".bat", ".cmd", ".sh"],
+        "answer": 0
+    },
+    {
+        "question": "What port does SMTP use by default?",
+        "options": ["25", "110", "443", "21"],
+        "answer": 0
+    },
+    {
+        "question": "Which command can you use to test connectivity to another device on the network?",
+        "options": ["ping", "ipconfig", "nslookup", "netstat"],
+        "answer": 0
+    },
+    {
+        "question": "A user cannot log into their email account. What should you check first?",
+        "options": ["If their password is correct", "If their email client is updated", "If their internet connection is active", "If their account is locked"],
+        "answer": 2
+    },
+    {
+        "question": "What is the purpose of the Control Panel in Windows?",
+        "options": ["Install new software", "Access system settings and configurations", "Monitor disk usage", "Recover lost files"],
+        "answer": 1
+    },
+    {
+        "question": "What does BSOD typically indicate?",
+        "options": ["A hardware failure", "A software crash", "Critical system error", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "What is the first step in resolving a hardware driver issue?",
+        "options": ["Reinstall the driver", "Check for updates", "Unplug the device", "Restart the computer"],
+        "answer": 1
+    },
+    {
+        "question": "Which of the following is a network protocol used to securely transfer files?",
+        "options": ["FTP", "HTTP", "SFTP", "SMTP"],
+        "answer": 2
+    },
+    {
+        "question": "A user’s laptop won’t connect to Wi-Fi. What should you check first?",
+        "options": ["Wi-Fi is enabled on the laptop", "Router firmware version", "Network adapter drivers", "Signal strength"],
+        "answer": 0
+    },
+    {
+        "question": "What does the command `tracert` do?",
+        "options": ["Lists the route packets take to a destination", "Checks active network connections", "Releases an IP address", "Flushes DNS cache"],
+        "answer": 0
+    },
+    {
+        "question": "What is the primary purpose of Active Directory?",
+        "options": ["Manage user access and resources", "Monitor network bandwidth", "Encrypt sensitive files", "Optimize system performance"],
+        "answer": 0
+    },
+    {
+        "question": "Which Windows feature allows you to roll back to a previous system state?",
+        "options": ["System Restore", "Disk Management", "Control Panel", "Event Viewer"],
+        "answer": 0
+    },
+    {
+        "question": "What does the `ipconfig /release` command do?",
+        "options": ["Displays the current IP configuration", "Releases the current IP address", "Renews the current IP address", "Flushes the DNS cache"],
+        "answer": 1
+    },
+    {
+        "question": "A user reports that their computer won't boot. What should you check first?",
+        "options": ["If the power cable is connected", "If the operating system is installed", "If the hard drive is detected", "If the monitor is functional"],
+        "answer": 0
+    },
+    {
+        "question": "What does RMA stand for in IT support?",
+        "options": ["Return Merchandise Authorization", "Remote Management Access", "Resource Management Assignment", "Router Maintenance Action"],
+        "answer": 0
+    }
+]
