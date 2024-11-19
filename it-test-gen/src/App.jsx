@@ -4,6 +4,7 @@ import Question from './components/Question'
 import questions2 from "./assets/questions-2.json"
 import questions1 from "./assets/questions-1.json"
 import questions3 from "./assets/questions-3.json"
+import terms from "./assets/questions-terms.json"
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -59,7 +60,9 @@ function App() {
           )}
         </div>
           <div id='results'>
-              {score ? `${score} / ${questions.length}` : null}
+              <h2 style={{fontSize: "20px", fontWeight: "bold"}}>
+                {score !== null ? `${score} / ${questions.length}` : null}
+              </h2>
           </div>
       </div>
       <div>
