@@ -1,11 +1,14 @@
 import { useState } from 'react'
 import './App.css'
 import Question from './components/Question'
-import questions from "./assets/questions-2.json"
+import questions2 from "./assets/questions-2.json"
+import questions1 from "./assets/questions-1.json"
 
 function App() {
+  const [questions, setQuestions] = useState(questions1)
+  const [score, setScore] = useState(null)
   const [userInputs, setUserInputs] = useState(Array(questions.length).fill(null))
-  const [testCompelete, setTestCompelete] = useState(false)
+  const [testComplete, setTestComplete] = useState(false)
   
   const updateUserInput = (idx, value) => {
     const updatedItems = [...userInputs]
@@ -20,7 +23,8 @@ function App() {
         score++
       }
     }
-    setTestCompelete(true)
+    setTestComplete(true)
+    setScore(score)
     console.log("score", score, "of", questions.length)
   }
 
@@ -30,17 +34,22 @@ function App() {
       <div>
         <h1 id='title'>IT Practice Test</h1>
       </div>
-      <div id="question-index">
-        {questions.map((item, idx) =>
-          <Question
-            key={idx}
-            questionDetails={item}
-            updateUserInput={updateUserInput}
-            idx={idx}
-            testCompelete={testCompelete}
-            correct={item.answer === userInputs[idx] ? true : false}
-          />
-        )}
+      <div id='questions-container'>
+        <div id="question-index">
+          {questions.map((item, idx) =>
+            <Question
+              key={idx}
+              questionDetails={item}
+              updateUserInput={updateUserInput}
+              idx={idx}
+              testComplete={testComplete}
+              correct={item.answer === userInputs[idx] ? true : false}
+            />
+          )}
+        </div>
+          <div id='results'>
+              {score ? `${score} / ${questions1.length}` : null}
+          </div>
       </div>
       <div>
         <button onClick={gradeTest}>Submit</button>

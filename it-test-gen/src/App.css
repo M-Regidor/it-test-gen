@@ -58,13 +58,21 @@ body {
 #title {
   font-size: xx-large;
   font-weight: bold;
+  padding-bottom: 50px;
 }
 
 #question-index {
+  width: 55%;
   display: flex;
   flex-direction: column;
   align-items: start;
   gap: 20px;
+  /* border: solid; */
+}
+
+#questions-container {
+  display: flex;
+  flex-direction: row;
 }
 
 #question-item {
@@ -72,6 +80,14 @@ body {
   flex-direction: column;
   align-items: start;
   gap: 5px;
+}
+
+#results {
+  width: 45%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #question-title {
