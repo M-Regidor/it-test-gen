@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const Question = ({questionDetails, updateUserInput, idx, testCompelete, correct}) => {
+const Question = ({questionDetails, updateUserInput, idx, testComplete, correct}) => {
     const [selectedOption, setSelectedOption] = useState()
     let fontColor
 
@@ -10,7 +10,7 @@ const Question = ({questionDetails, updateUserInput, idx, testCompelete, correct
         updateUserInput(idx, value)
     }
 
-    if (testCompelete){
+    if (testComplete){
         fontColor = correct ? "green" : "red"
     } else {
         fontColor = "black"

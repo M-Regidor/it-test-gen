@@ -3,9 +3,20 @@ import './App.css'
 import Question from './components/Question'
 import questions2 from "./assets/questions-2.json"
 import questions1 from "./assets/questions-1.json"
+import questions3 from "./assets/questions-3.json"
+
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const randomIndex = Math.floor(Math.random() * (i + 1));
+    // Swap the elements
+    [array[i], array[randomIndex]] = [array[randomIndex], array[i]];
+  }
+  return array;
+}
 
 function App() {
-  const [questions, setQuestions] = useState(questions1)
+  const allTest = [...questions1, ...questions2, ...questions3]
+  const [questions, setQuestions] = useState(shuffleArray(allTest))
   const [score, setScore] = useState(null)
   const [userInputs, setUserInputs] = useState(Array(questions.length).fill(null))
   const [testComplete, setTestComplete] = useState(false)
@@ -48,7 +59,7 @@ function App() {
           )}
         </div>
           <div id='results'>
-              {score ? `${score} / ${questions1.length}` : null}
+              {score ? `${score} / ${questions.length}` : null}
           </div>
       </div>
       <div>

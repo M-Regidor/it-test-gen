@@ -1,0 +1,102 @@
+[
+    {
+        "question": "What is the primary function of the Task Manager in Windows?",
+        "options": ["Manage processes and applications", "Backup files", "Optimize hardware settings", "Clean temporary files"],
+        "answer": 0
+    },
+    {
+        "question": "A user complains their computer is overheating. What should you check first?",
+        "options": ["If the fan is running", "The room temperature", "The power supply", "The operating system version"],
+        "answer": 0
+    },
+    {
+        "question": "What does the command `nslookup` do?",
+        "options": ["Displays DNS information", "Checks network packet loss", "Clears DNS cache", "Monitors active connections"],
+        "answer": 0
+    },
+    {
+        "question": "What type of network cable uses RJ45 connectors?",
+        "options": ["Ethernet", "Coaxial", "Fiber optic", "USB"],
+        "answer": 0
+    },
+    {
+        "question": "What is the first step in troubleshooting a printer that won’t print?",
+        "options": ["Check if the printer is powered on", "Update printer drivers", "Restart the computer", "Run a test page"],
+        "answer": 0
+    },
+    {
+        "question": "What is the main purpose of a proxy server?",
+        "options": ["Filter and monitor traffic", "Encrypt network traffic", "Backup server data", "Boost Wi-Fi signal"],
+        "answer": 0
+    },
+    {
+        "question": "Which command can be used to display the MAC address of a device in Windows?",
+        "options": ["ipconfig /all", "netstat", "ping", "tracert"],
+        "answer": 0
+    },
+    {
+        "question": "What does the `dir` command do in Windows?",
+        "options": ["Lists files and directories", "Deletes files", "Displays IP configuration", "Changes directories"],
+        "answer": 0
+    },
+    {
+        "question": "What is the purpose of a patch cable?",
+        "options": ["Connect network devices", "Extend Wi-Fi range", "Securely transfer files", "Backup data"],
+        "answer": 0
+    },
+    {
+        "question": "Which tool is commonly used to remove malware from a computer?",
+        "options": ["Windows Defender", "Task Manager", "Control Panel", "Disk Management"],
+        "answer": 0
+    },
+    {
+        "question": "A user complains that their system clock is incorrect. What should you check?",
+        "options": ["Time zone settings", "System battery (CMOS)", "Internet time synchronization", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "What does the command `chkdsk` do?",
+        "options": ["Checks for disk errors", "Clears temporary files", "Resets system settings", "Defragments the disk"],
+        "answer": 0
+    },
+    {
+        "question": "What is the most likely cause of a 'limited or no connectivity' message?",
+        "options": ["Incorrect IP configuration", "Corrupted operating system", "Malware infection", "Insufficient RAM"],
+        "answer": 0
+    },
+    {
+        "question": "What is the primary use of a VLAN?",
+        "options": ["Segment a network for security or efficiency", "Boost Wi-Fi signal", "Encrypt data packets", "Backup network data"],
+        "answer": 0
+    },
+    {
+        "question": "A user’s email attachments are not downloading. What is the first step?",
+        "options": ["Check the internet connection", "Update the email client", "Restart the computer", "Reinstall the email client"],
+        "answer": 0
+    },
+    {
+        "question": "What is the role of DNS in networking?",
+        "options": ["Resolve domain names to IP addresses", "Assign IP addresses to devices", "Encrypt network traffic", "Monitor server performance"],
+        "answer": 0
+    },
+    {
+        "question": "A user’s computer displays a 'No Boot Device Found' error. What should you check first?",
+        "options": ["The boot order in BIOS", "The power cable", "The system time", "The network connection"],
+        "answer": 0
+    },
+    {
+        "question": "What does the term 'latency' refer to in networking?",
+        "options": ["Delay in data transfer", "Speed of internet connection", "Bandwidth availability", "Packet loss rate"],
+        "answer": 0
+    },
+    {
+        "question": "What tool is used to test physical connectivity of network cables?",
+        "options": ["Cable tester", "Ping command", "Packet sniffer", "Multimeter"],
+        "answer": 0
+    },
+    {
+        "question": "What does HTTP stand for?",
+        "options": ["Hypertext Transfer Protocol", "High Traffic Transfer Protocol", "Hypertext Transmission Process", "Host Transfer Text Protocol"],
+        "answer": 0
+    }
+]
