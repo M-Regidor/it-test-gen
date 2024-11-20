@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 const Question = ({questionDetails, updateUserInput, idx, testComplete, correct}) => {
     const [selectedOption, setSelectedOption] = useState()
@@ -15,6 +15,10 @@ const Question = ({questionDetails, updateUserInput, idx, testComplete, correct}
     } else {
         fontColor = "black"
     }
+
+    useEffect(() => {
+        setSelectedOption()
+    }, [questionDetails])
     
     return (
         <div id="question-item">
