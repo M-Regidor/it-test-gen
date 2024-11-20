@@ -13,12 +13,32 @@ export function shuffleArray(array) {
   return array;
 }
 
+const shuffleOptions = (questions) => {
+    questions.forEach(question => {
+        if (question.options[3] != "All of the above") {
+          shuffleArray(question.options)
+        }
+    });
+}
+
+const setupQuestions = (questions) => {
+  shuffleArray(questions)
+  shuffleOptions(questions)
+}
+
+const allTest = [...terms, ...networking, ...troubleShooting]
+
+setupQuestions(terms)
+setupQuestions(troubleShooting)
+setupQuestions(networking)
+shuffleArray(allTest)
+
 function App() {
-  const allTest = [...terms, ...networking, ...troubleShooting]
   const [questions, setQuestions] = useState(terms)
   const [score, setScore] = useState(null)
   const [userInputs, setUserInputs] = useState(Array(questions.length).fill(null))
   const [testComplete, setTestComplete] = useState(false)
+
   
   const updateUserInput = (idx, value) => {
     const updatedItems = [...userInputs]
@@ -38,14 +58,9 @@ function App() {
     console.log("score", score, "of", questions.length)
   }
 
-  useEffect(() => {
-    const newQuestions = questions
-    setQuestions(shuffleArray(newQuestions))
-  }, [questions])
 
   const handleChange = (value) => {
-    // const value = e.target.value
-    setQuestions(shuffleArray(value))
+    setQuestions(value)
     setUserInputs(Array(value.length).fill(null))
     setTestComplete(false)
     setScore(null)

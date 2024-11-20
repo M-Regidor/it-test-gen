@@ -2,51 +2,51 @@
     {
         "question": "What does IP stand for?",
         "options": ["Internet Protocol", "Internal Process", "Information Pathway", "Interactive Protocol"],
-        "answer": 0
+        "answer": "Internet Protocol"
     },
     {
         "question": "What does DHCP stand for?",
         "options": ["Dynamic Host Configuration Protocol", "Domain Host Control Protocol", "Data Hyperlink Control Process", "Dynamic Hardware Configuration Protocol"],
-        "answer": 0
+        "answer": "Dynamic Host Configuration Protocol"
     },
     {
         "question": "What is the function of DNS?",
         "options": ["Translates domain names to IP addresses", "Encrypts data for security", "Configures dynamic IP addresses", "Monitors network traffic"],
-        "answer": 0
+        "answer": "Translates domain names to IP addresses"
     },
     {
         "question": "What does VPN stand for?",
         "options": ["Virtual Private Network", "Verified Protocol Node", "Virtual Protocol Network", "Verified Private Node"],
-        "answer": 0
+        "answer": "Virtual Private Network"
     },
     {
         "question": "What does HTTP stand for?",
         "options": ["Hypertext Transfer Protocol", "Hyperlink Transmission Process", "High Traffic Transfer Protocol", "Host Transfer Text Protocol"],
-        "answer": 0
+        "answer": "Hypertext Transfer Protocol"
     },
     {
         "question": "What does RDP stand for?",
         "options": ["Remote Desktop Protocol", "Rapid Data Processing", "Remote Device Protection", "Resource Deployment Plan"],
-        "answer": 0
+        "answer": "Remote Desktop Protocol"
     },
     {
         "question": "What is a MAC address?",
         "options": ["Unique identifier for network devices", "Temporary IP address", "Firewall rule name", "Encrypted password for devices"],
-        "answer": 0
+        "answer": "Unique identifier for network devices"
     },
     {
         "question": "What does SLA stand for?",
         "options": ["Service Level Agreement", "System Load Analysis", "Service License Authorization", "Standard Log Aggregation"],
-        "answer": 0
+        "answer": "Service Level Agreement"
     },
     {
         "question": "What does BIOS stand for?",
         "options": ["Basic Input Output System", "Binary Integrated Operating System", "Basic Internal Operating Software", "Basic Internet Optimization System"],
-        "answer": 0
+        "answer": "Basic Input Output System"
     },
     {
         "question": "What does BSOD stand for?",
         "options": ["Blue Screen of Death", "Backup System on Demand", "Basic System Output Driver", "Bad Sector Output Disk"],
-        "answer": 0
+        "answer": "Blue Screen of Death"
     }
 ]
