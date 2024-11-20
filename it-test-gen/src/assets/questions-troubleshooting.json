@@ -1,0 +1,102 @@
+[
+    {
+        "question": "A user reports their computer is not turning on. What should you check first?",
+        "options": ["Power cable connection", "BIOS settings", "Operating system", "Hard drive"],
+        "answer": 0
+    },
+    {
+        "question": "What is the first step in troubleshooting a printer that won’t print?",
+        "options": ["Ensure the printer is powered on", "Restart the printer", "Check the printer drivers", "Replace the printer cartridge"],
+        "answer": 0
+    },
+    {
+        "question": "A user complains their computer is running slowly. What should you check first?",
+        "options": ["Task Manager for resource usage", "Disk space availability", "Internet connection speed", "BIOS settings"],
+        "answer": 0
+    },
+    {
+        "question": "What should you do if a user’s screen is flickering?",
+        "options": ["Update display drivers", "Adjust screen brightness", "Replace the monitor", "Restart the computer"],
+        "answer": 0
+    },
+    {
+        "question": "A user reports that their keyboard is not working. What should you check first?",
+        "options": ["If the keyboard is properly connected", "Update the keyboard drivers", "Replace the keyboard", "Check for system updates"],
+        "answer": 0
+    },
+    {
+        "question": "A user reports their system clock is incorrect. What should you check?",
+        "options": ["Time zone settings", "System battery (CMOS)", "Internet time synchronization", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "What is the best way to diagnose network connectivity issues?",
+        "options": ["Use the 'ping' command", "Update network drivers", "Restart the computer", "Replace the Ethernet cable"],
+        "answer": 0
+    },
+    {
+        "question": "A user is unable to access a shared folder. What should you check first?",
+        "options": ["Folder permissions", "User credentials", "Network connectivity", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "A laptop is overheating. What should you do first?",
+        "options": ["Check if the fan is functioning", "Replace the thermal paste", "Lower the CPU speed", "Adjust the room temperature"],
+        "answer": 0
+    },
+    {
+        "question": "What is the most common cause of a 'blue screen' error?",
+        "options": ["Hardware failure", "Corrupted operating system", "Driver issues", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "A user complains their email client is not sending emails. What should you check?",
+        "options": ["SMTP server settings", "Internet connection", "Email account credentials", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "A user is unable to log in to their account. What should you check first?",
+        "options": ["If Caps Lock is enabled", "Account lockout status", "Password accuracy", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "A computer keeps restarting unexpectedly. What is the most likely cause?",
+        "options": ["Overheating", "Faulty RAM", "Malware infection", "Power supply issues"],
+        "answer": 0
+    },
+    {
+        "question": "A user’s Wi-Fi keeps disconnecting. What should you check first?",
+        "options": ["Signal strength", "Router settings", "Network drivers", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "A user complains that a specific application is crashing. What should you do first?",
+        "options": ["Update the application", "Check for available system updates", "Reinstall the application", "Run the application in safe mode"],
+        "answer": 0
+    },
+    {
+        "question": "What should you do if a computer cannot boot into the operating system?",
+        "options": ["Check boot order in BIOS", "Run a system repair tool", "Test the hard drive", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "A user reports that their files are opening with the wrong application. What should you do?",
+        "options": ["Change the default application for that file type", "Reinstall the application", "Delete and recreate the file", "Restart the computer"],
+        "answer": 0
+    },
+    {
+        "question": "A user’s screen resolution cannot be adjusted. What should you check first?",
+        "options": ["Display driver updates", "Monitor connection", "Graphics card settings", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "A user reports that their sound is not working. What should you check first?",
+        "options": ["Volume settings", "Audio driver status", "Speakers or headphones connection", "All of the above"],
+        "answer": 3
+    },
+    {
+        "question": "A user’s external USB drive is not recognized. What should you check first?",
+        "options": ["USB port functionality", "Drive partition status", "Disk drivers", "All of the above"],
+        "answer": 3
+    }
+]

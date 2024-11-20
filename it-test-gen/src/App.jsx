@@ -1,23 +1,21 @@
 import { useState } from 'react'
 import './App.css'
 import Question from './components/Question'
-import questions2 from "./assets/questions-2.json"
-import questions1 from "./assets/questions-1.json"
-import questions3 from "./assets/questions-3.json"
 import terms from "./assets/questions-terms.json"
+import networking from "./assets/questions-networking.json"
+import troubleShooting from "./assets/questions-troubleshooting.json"
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const randomIndex = Math.floor(Math.random() * (i + 1));
-    // Swap the elements
     [array[i], array[randomIndex]] = [array[randomIndex], array[i]];
   }
   return array;
 }
 
 function App() {
-  const allTest = [...questions1, ...questions2, ...questions3]
-  const [questions, setQuestions] = useState(shuffleArray(allTest))
+  const allTest = [...terms, ...networking, ...troubleShooting]
+  const [questions, setQuestions] = useState(shuffleArray(terms))
   const [score, setScore] = useState(null)
   const [userInputs, setUserInputs] = useState(Array(questions.length).fill(null))
   const [testComplete, setTestComplete] = useState(false)
@@ -40,6 +38,13 @@ function App() {
     console.log("score", score, "of", questions.length)
   }
 
+  const handleChange = (value) => {
+    // const value = e.target.value
+    setQuestions(shuffleArray(value))
+    setUserInputs(Array(value.length).fill(null))
+    setTestComplete(false)
+    setScore(null)
+  }
   
   return (
     <>
@@ -60,6 +65,12 @@ function App() {
           )}
         </div>
           <div id='results'>
+            <div id="test-types">
+              <button onClick={e => handleChange(terms)}>Terms</button>
+              <button onClick={e => handleChange(networking)}>Networking</button>
+              <button onClick={e => handleChange(troubleShooting)}>Trouble Shooting</button>
+              <button onClick={e => handleChange(allTest)}>All Test</button>
+            </div>
               <h2 style={{fontSize: "20px", fontWeight: "bold"}}>
                 {score !== null ? `${score} / ${questions.length}` : null}
               </h2>
