@@ -4,11 +4,10 @@ import { shuffleArray } from "../App"
 const Question = ({questionDetails, updateUserInput, idx, testComplete, correct}) => {
     const [selectedOption, setSelectedOption] = useState()
     let fontColor
-    // let options = questionDetails.options
+
     
 
     const handleOption = (option, optionIdx) => {
-        // const value = Number(e.target.value)
         setSelectedOption(optionIdx)
         updateUserInput(idx, option)
     }
@@ -23,9 +22,6 @@ const Question = ({questionDetails, updateUserInput, idx, testComplete, correct}
         setSelectedOption()
     }, [questionDetails])
 
-    // useEffect(() => {
-    //     const options = shuffleArray(questionDetails.options)
-    // }, [])
     
     return (
         <div id="question-item">

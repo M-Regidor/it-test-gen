@@ -1,23 +1,8 @@
 [
     {
-        "question": "What does IP stand for in networking?",
-        "options": ["Internet Protocol", "Internal Process", "Information Pathway", "Interactive Protocol"],
-        "answer": "Internet Protocol"
-    },
-    {
         "question": "What is the primary function of a router?",
         "options": ["Direct network traffic", "Secure data packets", "Provide IP addresses", "Monitor bandwidth usage"],
         "answer": "Direct network traffic"
-    },
-    {
-        "question": "What does DNS stand for?",
-        "options": ["Domain Name System", "Dynamic Network Setup", "Data Node Synchronization", "Digital Name Service"],
-        "answer": "Domain Name System"
-    },
-    {
-        "question": "What does DHCP stand for?",
-        "options": ["Dynamic Host Configuration Protocol", "Domain Host Control Protocol", "Dynamic Hardware Configuration Protocol", "Data Hyperlink Control Process"],
-        "answer": "Dynamic Host Configuration Protocol"
     },
     {
         "question": "Which command is used to test the reachability of a host in networking?",
@@ -45,14 +30,14 @@
         "answer": "443"
     },
     {
+        "question": "What is the default port for HTTP?",
+        "options": ["80", "443", "8080", "21"],
+        "answer": "80"
+    },
+    {
         "question": "Which network topology connects all devices to a central hub?",
         "options": ["Star", "Ring", "Bus", "Mesh"],
         "answer": "Star"
-    },
-    {
-        "question": "What does VLAN stand for?",
-        "options": ["Virtual Local Area Network", "Variable Line Access Network", "Virtual Logical Address Network", "Verified Local Access Node"],
-        "answer": "Virtual Local Area Network"
     },
     {
         "question": "Which layer of the OSI model is responsible for data encryption?",
@@ -65,9 +50,9 @@
         "answer": "Connect devices in the same network"
     },
     {
-        "question": "What does MAC address stand for?",
-        "options": ["Media Access Control", "Multiple Access Configuration", "Managed Access Connection", "Machine Authorization Code"],
-        "answer": "Media Access Control"
+        "question": "What is a MAC address?",
+        "options": ["Unique identifier for network devices", "Temporary IP address", "Firewall rule name", "Encrypted password for devices"],
+        "answer": "Unique identifier for network devices"
     },
     {
         "question": "What is a private IP address?",
@@ -98,5 +83,56 @@
         "question": "What is the difference between TCP and UDP?",
         "options": ["TCP is connection-oriented; UDP is connectionless", "TCP is faster than UDP", "UDP encrypts data; TCP does not", "TCP is used only for streaming"],
         "answer": "TCP is connection-oriented; UDP is connectionless"
+    },
+    {
+        "question": "What is the function of DNS in a network?",
+        "options": ["Translate domain names into IP addresses", "Encrypt data packets", "Manage file sharing", "Control network access"],
+        "answer": "Translate domain names into IP addresses"
+    },
+    {
+        "question": "What command displays the current network configuration of a Windows computer?",
+        "options": ["ipconfig", "ping", "tracert", "netstat"],
+        "answer": "ipconfig"
+    },
+    {
+        "question": "What is a common use of the FTP protocol?",
+        "options": ["Transfer files between devices", "Encrypt email communication", "Manage DNS settings", "Allocate dynamic IP addresses"],
+        "answer": "Transfer files between devices"
+    },
+    {
+        "question": "Which layer of the OSI model is responsible for establishing and terminating communication sessions?",
+        "options": ["Session", "Transport", "Network", "Data Link"],
+        "answer": "Session"
+    },
+    {
+        "question": "What is a loopback IP address used for?",
+        "options": ["Testing a device's own network stack", "Connecting to a remote server", "Assigning temporary IP addresses", "Encrypting internal network traffic"],
+        "answer": "Testing a device's own network stack"
+    },
+    {
+        "question": "What does the nslookup command do?",
+        "options": ["Query DNS servers for domain information", "Test network speed", "Display MAC addresses", "Release a DHCP lease"],
+        "answer": "Query DNS servers for domain information"
+    },
+    {
+        "question": "What does SSL/TLS do in a network?",
+        "options": ["Encrypt data for secure communication", "Allocate IP addresses", "Manage data packet routing", "Control user authentication"],
+        "answer": "Encrypt data for secure communication"
+    },
+    {
+        "question": "What is the primary difference between IPv4 and IPv6?",
+        "options": ["IPv6 uses 128-bit addresses; IPv4 uses 32-bit addresses", "IPv6 is faster than IPv4", "IPv6 only works for local networks", "IPv4 supports encryption by default"],
+        "answer": "IPv6 uses 128-bit addresses; IPv4 uses 32-bit addresses"
+    },
+    {
+        "question": "What does a proxy server do?",
+        "options": ["Acts as an intermediary between clients and servers", "Provides IP addresses dynamically", "Monitors network bandwidth", "Encrypts email communications"],
+        "answer": "Acts as an intermediary between clients and servers"
+    },
+    {
+        "question": "What is the purpose of two-factor authentication (2FA)?",
+        "options": ["Add an extra layer of security to login processes", "Encrypt user credentials", "Provide faster access to servers", "Automate password changes"],
+        "answer": "Add an extra layer of security to login processes"
     }
+
 ]

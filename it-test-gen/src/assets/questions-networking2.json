@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What is the function of DNS in a network?",
+        "options": ["Translate domain names into IP addresses", "Encrypt data packets", "Manage file sharing", "Control network access"],
+        "answer": "Translate domain names into IP addresses"
+    },
+    {
+        "question": "What command displays the current network configuration of a Windows computer?",
+        "options": ["ipconfig", "ping", "tracert", "netstat"],
+        "answer": "ipconfig"
+    },
+    {
+        "question": "What is a common use of the FTP protocol?",
+        "options": ["Transfer files between devices", "Encrypt email communication", "Manage DNS settings", "Allocate dynamic IP addresses"],
+        "answer": "Transfer files between devices"
+    },
+    {
+        "question": "Which layer of the OSI model is responsible for establishing and terminating communication sessions?",
+        "options": ["Session", "Transport", "Network", "Data Link"],
+        "answer": "Session"
+    },
+    {
+        "question": "What is a loopback IP address used for?",
+        "options": ["Testing a device's own network stack", "Connecting to a remote server", "Assigning temporary IP addresses", "Encrypting internal network traffic"],
+        "answer": "Testing a device's own network stack"
+    },
+    {
+        "question": "What does the nslookup command do?",
+        "options": ["Query DNS servers for domain information", "Test network speed", "Display MAC addresses", "Release a DHCP lease"],
+        "answer": "Query DNS servers for domain information"
+    },
+    {
+        "question": "What does SSL/TLS do in a network?",
+        "options": ["Encrypt data for secure communication", "Allocate IP addresses", "Manage data packet routing", "Control user authentication"],
+        "answer": "Encrypt data for secure communication"
+    },
+    {
+        "question": "What is the primary difference between IPv4 and IPv6?",
+        "options": ["IPv6 uses 128-bit addresses; IPv4 uses 32-bit addresses", "IPv6 is faster than IPv4", "IPv6 only works for local networks", "IPv4 supports encryption by default"],
+        "answer": "IPv6 uses 128-bit addresses; IPv4 uses 32-bit addresses"
+    },
+    {
+        "question": "What does a proxy server do?",
+        "options": ["Acts as an intermediary between clients and servers", "Provides IP addresses dynamically", "Monitors network bandwidth", "Encrypts email communications"],
+        "answer": "Acts as an intermediary between clients and servers"
+    },
+    {
+        "question": "What is the purpose of two-factor authentication (2FA)?",
+        "options": ["Add an extra layer of security to login processes", "Encrypt user credentials", "Provide faster access to servers", "Automate password changes"],
+        "answer": "Add an extra layer of security to login processes"
+    }
+]

@@ -30,9 +30,9 @@
         "answer": "Remote Desktop Protocol"
     },
     {
-        "question": "What is a MAC address?",
-        "options": ["Unique identifier for network devices", "Temporary IP address", "Firewall rule name", "Encrypted password for devices"],
-        "answer": "Unique identifier for network devices"
+        "question": "What does MAC address stand for?",
+        "options": ["Media Access Control", "Multiple Access Configuration", "Managed Access Connection", "Machine Authorization Code"],
+        "answer": "Media Access Control"
     },
     {
         "question": "What does SLA stand for?",
@@ -48,5 +48,10 @@
         "question": "What does BSOD stand for?",
         "options": ["Blue Screen of Death", "Backup System on Demand", "Basic System Output Driver", "Bad Sector Output Disk"],
         "answer": "Blue Screen of Death"
+    },
+    {
+        "question": "What does DNS stand for?",
+        "options": ["Domain Name System", "Dynamic Network Setup", "Data Node Synchronization", "Digital Name Service"],
+        "answer": "Domain Name System"
     }
 ]

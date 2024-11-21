@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import './App.css'
 import Question from './components/Question'
 import terms from "./assets/questions-terms.json"
