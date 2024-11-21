@@ -10,11 +10,6 @@
         "answer": "Dynamic Host Configuration Protocol"
     },
     {
-        "question": "What is the function of DNS?",
-        "options": ["Translates domain names to IP addresses", "Encrypts data for security", "Configures dynamic IP addresses", "Monitors network traffic"],
-        "answer": "Translates domain names to IP addresses"
-    },
-    {
         "question": "What does VPN stand for?",
         "options": ["Virtual Private Network", "Verified Protocol Node", "Virtual Protocol Network", "Verified Private Node"],
         "answer": "Virtual Private Network"
